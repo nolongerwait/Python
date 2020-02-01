@@ -59,7 +59,7 @@ print(msg)
 
 ## 虚拟环境的配置和第一次导入包
 ### 包的引入
-在VS Code打开的工作环境（文件夹）下，在资源管理器的文件目录下，右键 New File 创建一个名为standardplot.py的文件。 并粘贴如下代码
+在VS Code打开的工作环境（文件夹）下，在资源管理器的文件目录下，右键 New File 创建一个名为[standardplot.py](../Code/standardplot.py)的文件。 并粘贴如下代码
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
