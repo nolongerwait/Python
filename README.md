@@ -1,4 +1,5 @@
 # Python
- Teaching Python for HML
+ Teaching Python for Menglu He
 
-[第一天教程](Tutorial/Guide01.md)
+[第一天教程](Tutorial/Guide01.md) 软件的安装和环境的配置。
+[]() 初识编程，了解编程中的基本概念。

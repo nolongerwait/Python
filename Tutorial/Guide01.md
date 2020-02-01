@@ -46,7 +46,7 @@ Python 3.8.1
 
 ![图5](Source/QQ20200201-065633-HD.gif)  
 
-复制粘贴以下代码在 hello.py文件中
+复制粘贴以下代码在[hello.py](../Code/hello.py)文件中
 ```python
 msg = "Hello World"
 print(msg)
@@ -55,3 +55,37 @@ print(msg)
 ![图5](Source/1580540466511.jpg)
 然后可以在下面的Terminal中查看运行结果  
 ![图6](Source/1580540701811.jpg)
+
+## 虚拟环境的配置和第一次导入包
+### 包的引入
+在VS Code打开的工作环境（文件夹）下，在资源管理器的文件目录下，右键 New File 创建一个名为standardplot.py的文件。 并粘贴如下代码
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
+plt.plot(x, np.sin(x))       # Plot the sine of each x point
+plt.show()                   # Display the plot
+``` 
+此时当您点击“运行”按钮后，您会得到“**ModuleNotFoundError: No module named 'matplotlib'**” 的错误提示。
+
+### 虚拟环境
+为了解决该问题，我们学习如何引入包，在引入包之前，要了解“虚拟环境”这个概念及其功能。(回忆我举得例子，整台电脑就是一个大房子，虚拟环境就是分房，不然就是同居)
+
+给项目使用特定的虚拟环境(其中包含全局解释器的副本)。激活该环境后，您随后安装的所有软件包都将与其他环境隔离。这种隔离减少了因版本冲突而引起的许多复杂情况。要创建虚拟环境并安装所需的软件包，请根据您的操作系统输入以下命令：
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
+### 导入软件包
+创建好虚拟环境后，再导入包  
+在终端输入下一命令来下载和导入Python包
+```
+python3 -m pip install matplotlib
+国内使用
+python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ matplotlib
+```
+
+待包导入完毕后，运行程序，可得到如图所示的运行结果
+
+![图7](Source/QQ20200201-072312-HD.gif)
