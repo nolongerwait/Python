@@ -5,6 +5,7 @@
     1. 编写工具：Visual Studio Code  
     2. 开发环境：Python3 3.8.1 (Python.prg)    
 * Hello Word首运行
+* 包的导入和虚拟环境
 
 ## 下载安装Visual Studio Code  
 进入[VS Code官网](https://code.visualstudio.com/)，点击“Downlaod for Mac(Stable Build)” 按钮下载。  
