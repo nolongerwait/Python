@@ -1,9 +1,10 @@
 # 学习Python的第一天
 
 任务:  
-安装进行编写Python所需的软件和开发环境  
-1. 编写工具：Visual Studio Code  
-2. 开发环境：Python3 3.8.1 (Python.prg)  
+* 安装进行编写Python所需的软件和开发环境  
+    1. 编写工具：Visual Studio Code  
+    2. 开发环境：Python3 3.8.1 (Python.prg)    
+* Hello Word首运行
 
 ## 下载安装Visual Studio Code  
 进入[VS Code官网](https://code.visualstudio.com/)，点击“Downlaod for Mac(Stable Build)” 按钮下载。  
@@ -37,3 +38,20 @@ python3 --version
 ```
 Python 3.8.1
 ```
+
+## 第一个Python程序
+在VS Code打开的工作环境（文件夹）下，在文件目录下，右键 New File 创建一个名为hello.py的文件。  
+
+注意: （在VS Code里面创建文件都需要手打后缀名。所以请完全打上名字 hello.py）
+
+![图5](Source/QQ20200201-065633-HD.gif)  
+
+复制粘贴以下代码在 hello.py文件中
+```python
+msg = "Hello World"
+print(msg)
+```
+保存，点击右上角的 运行 小按钮。
+![图5](Source/1580540466511.jpg)
+然后可以在下面的Terminal中查看运行结果  
+![图6](Source/1580540701811.jpg)
