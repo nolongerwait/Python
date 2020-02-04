@@ -91,4 +91,6 @@ python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ matplotlib
 
 ![图7](Source/QQ20200201-072312-HD.gif)
 
-<center/> <a href="Guide02.md">下一篇教程
+<p align="center">
+    <a href="Guide02.md">下一篇教程
+</p>
