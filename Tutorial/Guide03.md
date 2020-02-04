@@ -149,4 +149,4 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 3: invalid 
 'Hello, 小明, 成绩提升了 17.1%'
 ```
 
-[上一篇教程](Guide02.md)  --------------------------------------  [下一篇教程](Guide04.md)
+<center><a href="Guide02.md">上一篇教程</a>--------------------------------------<a href="Guide04.md">下一篇教程</center>

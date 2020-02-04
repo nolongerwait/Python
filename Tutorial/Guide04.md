@@ -185,4 +185,4 @@ This is the second sentence."
     - 创建一个自然字符串变量str，赋值为`Menglu He`，并输出
     - 创建两个变量person1和person2，分别赋值为`Menglu He`和`Zetian Qin`，通过规格化的方法将这两个变量放入下面的句子`{person2} firmly believes that he will give {person1} the happiest life in the world. And, he feels that in the coming year, he could do anything he had promised.`并输出。
 
-[上一篇教程](Guide03.md)  --------------------------------------  [下一篇教程](Guide05.md)
+<center><a href="Guide03.md">上一篇教程</a>--------------------------------------<a href="Guide05.md">下一篇教程</center>
