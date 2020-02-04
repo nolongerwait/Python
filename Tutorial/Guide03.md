@@ -148,3 +148,5 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 3: invalid 
 >>> 'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
 'Hello, 小明, 成绩提升了 17.1%'
 ```
+
+[上一篇教程](Guide02.md)  --------------------------------------  [下一篇教程](Guide04.md)
