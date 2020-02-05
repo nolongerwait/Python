@@ -183,7 +183,7 @@ This is the second sentence."
     - 输出一段字符串常量`Menglu He`
     - 创建一个变量，赋值为`9.99156489`，并输出，保留一位小数
     - 创建一个自然字符串变量str，赋值为`Menglu He`，并输出
-    - 创建两个变量person1和person2，分别赋值为`Menglu He`和`Zetian Qin`，通过规格化的方法将这两个变量放入下面的句子`{person2} firmly believes that he will give {person1} the happiest life in the world. And, he feels that in the coming year, he could do anything he had promised.`并输出。
+    - 创建两个变量person1和person2，分别赋值为`Menglu He`和`Zetian Qin`，通过规格化的方法将这两个变量放入下面的句子`{person2} firmly believes that he will give {person1} the happiest life in the world.`并输出。
 
 <p align="center">
   <a href="Guide03.md">上一篇教程</a>  --------------------------------------  <a href="Guide05.md">下一篇教程
