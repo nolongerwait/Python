@@ -13,4 +13,5 @@ Teaching Python for Menglu He
 
 让我们开始步入正轨，边学，边写，边练。
 
-[学习Python的第四天](Tutorial/Guide04.md) 应用基础知识进行一定的编程  
+[学习Python的第四天](Tutorial/Guide04.md) 应用基础知识进行一定的编程（语句）  
+[学习Python的第五天](Tutorial/Guide05.md) 应用基础知识进行一定的编程  （操作符）  
