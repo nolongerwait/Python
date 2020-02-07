@@ -153,7 +153,7 @@ function2.add_two_num(3, 5)
     - 编写一个能够计算两个数减法的函数`subtraction(a, b)`
     - 编写一个能够计算两个数乘法的函数`multiplication(a, b)`
     - 编写一个能够计算两个数除法的函数`division(a, b)`
-- 在本地下载[sample.py](../Code/sample.py)放在和worksheet07.py同目录的文件夹下
+- 在本地创建[sample.py](../Code/sample.py)放在和worksheet07.py同目录的文件夹下
     - 在worksheet07.py中，调用sample.py的`show()`函数
 
 
