@@ -16,3 +16,4 @@ Teaching Python for Menglu He
 [学习Python的第四天](Tutorial/Guide04.md) 应用基础知识进行一定的编程（语句）  
 [学习Python的第五天](Tutorial/Guide05.md) 应用基础知识进行一定的编程  （操作符）  
 [学习Python的第六天](Tutorial/Guide06.md) 学习流程控制语句——循环和条件语句  
+[学习Python的第七天](Tutorial/Guide07.md) 学习函数  
