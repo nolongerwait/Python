@@ -136,6 +136,16 @@ Changed global x to 2
 Value of x is 2
 ```
 
+## 调用其他文件中定义的函数
+有时候我们会将不同功能的函数定义在不同的文件中。举个例子，我如何在function1.py中调用function2.py定义的`add_two_num()`呢？
+
+着我们就需要在function1.py的开头，加上这么一段代码`import function2`。然后在程序用使用`function2.add_two_num()`就可以调用到`add_two_num()`了。
+```python
+import function2
+
+function2.add_two_num(3, 5)
+```
+
 # 作业
 - 创建一个worksheet07.py文件
 - 在这个文件中完成如下内容
@@ -143,6 +153,8 @@ Value of x is 2
     - 编写一个能够计算两个数减法的函数`subtraction(a, b)`
     - 编写一个能够计算两个数乘法的函数`multiplication(a, b)`
     - 编写一个能够计算两个数除法的函数`division(a, b)`
+- 在本地下载[sample.py](../Code/sample.py)放在和worksheet07.py同目录的文件夹下
+    - 在worksheet07.py中，调用sample.py的`show()`函数
 
 
 <p align="center">
