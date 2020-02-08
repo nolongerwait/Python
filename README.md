@@ -18,3 +18,4 @@ Teaching Python for Menglu He
 [学习Python的第六天](Tutorial/Guide06.md) 学习流程控制语句——循环和条件语句  
 [学习Python的第七天](Tutorial/Guide07.md) 学习函数  
 [学习Python的第八天](Tutorial/Guide08.md) 学习进阶的数据结构类型，了解对象和引用。
+[学习Python的第?天](Tutorial/Guide09.md) 咨询
