@@ -16,7 +16,7 @@
 
 函数可以通过关键字 `def` 来定义。这一关键字后跟一个函数的标识符名称(即 **函数名** )，再跟一对圆括号，括号中会有一些变量(即 **参数** )，再以冒号结尾，结束这一行。冒号之后的新的语句块是函数的 **函数体** 。
 
-我们来看一个栗子🌰吧：(将下面的程序保存为[function1.py](../Code/function1.py))
+我们来看一个栗子🌰吧：(将下面的程序保存为[function1.py](../Code/07/function1.py))
 ```python
 # start the function say_hello()
 def say_hello():
@@ -42,7 +42,7 @@ hello world
 ### 函数参数 和 函数的返回值
 上面的栗子中，我们定义的函数是没有参数的。因为它的功能只是打印一串特定的内容，不需要接收其他变量，或者对其他变量进行处理。但是接下来，我们来认识一下函数的参数。
 
-我们通过实际例子来感受一下，什么是函数的参数(保存代码到[function2.py](../Code/function2.py))
+我们通过实际例子来感受一下，什么是函数的参数(保存代码到[function2.py](../Code/07/function2.py))
 ```python
 def add_two_num(a, b):
     # a and b are the parameters of add_two_num()
@@ -96,7 +96,7 @@ WorldWorldWorldWorldWorld
 ## 局部(local)变量，全局(global)变量和变量的作用域(scope)
 为了更好的了解函数内的变量的工作方式，我们现在讨论一下一个变量的生命周期。
 
-还是老样子，先来看一个代码[local_variable.py](../Code/local_variable.py)
+还是老样子，先来看一个代码[local_variable.py](../Code/07/local_variable.py)
 ```python
 # The 1st level block start
 x = 50

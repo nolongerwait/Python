@@ -50,7 +50,7 @@ else:
 ```
 
 下面我们举个例子，来实际运行一下。
-请将下面的代码保存为[if.py](../Code/if.py)
+请将下面的代码保存为[if.py](../Code/06/if.py)
 
 ```python
 number = 23
@@ -143,7 +143,7 @@ if condition2:
 `while` 语句能够让你在条件为真的前提下重复执行某块语句。 `while` 语句是 **循环（Looping）** 语句的一种。`while` 语句同样可以拥有 `else` 子句作为可选选项。
 > 说明，`while`的`else`子句，只是在循环条件结束后进行执行的。实际上有没有这个else子句影响并不大。即便没有这个`else`，我们也可以直接写其他语句来执行。
 
-下面我们来看一个例子，将下面的代码保存为[while.py](../Code/while.py)
+下面我们来看一个例子，将下面的代码保存为[while.py](../Code/06/while.py)
 ```python
 number = 23
 running = True
@@ -189,7 +189,7 @@ Done
 ## `for` 循环
 `for...in` 语句是另一种循环语句，其特点是会在一系列对象上进行 **迭代（Iterates）** ，意即它会遍历序列中的每一个项目。我们将在后面的序列（Sequences）章节中了解有关它的更多内容。现在你所需要的就是所谓序列就是一系列项目的有序集合。
 
-和前面一样，我们还是看个案例（保存为[for.py](../Code/for.py)）：
+和前面一样，我们还是看个案例（保存为[for.py](../Code/06/for.py)）：
 ```python
 for i in range(1, 5):
     print(i) # i will be changed in each looping
@@ -218,7 +218,7 @@ The for loop is over
 
 有一点需要尤其注意，如果你 **中断** 了一个 `for` 或 `while` 循环，从`break`之后的任何循环体内的代码都不会执行。
 
-看个案例吧（保存为[break.py](../Code/break.py)）
+看个案例吧（保存为[break.py](../Code/06/break.py)）
 ```python
 while True:
     s = input('Enter something : ')
@@ -248,7 +248,7 @@ Done
 
 ### 继续(continue)语句
 `continue` 语句用以告诉 Python 跳过当前循环块中的剩余语句，直接进入下一次循环中。
-案例（保存为[continue.py](../Code/continue.py)）：
+案例（保存为[continue.py](../Code/06/continue.py)）：
 ```python
 for i in range(0, 9):
     if i == 5:

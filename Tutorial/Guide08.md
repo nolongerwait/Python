@@ -23,7 +23,7 @@ Python 中有四种内置的数据结构——列表（List）、元组（Tuple�
 
 项目的列表应该用方括号括起来，这样 Python 才能理解到你正在指定一张列表。一旦你创建了一张列表，你可以添加、移除或搜索列表中的项目。既然我们可以添加或删除项目，我们会说列表是一种 **可变的（Mutable）** 数据类型，意即，这种类型是可以被程序所改变的。
 
-我们来看一个列表的栗子🌰（将下面示范代码保存为[ds_using_list.py](../Code/ds_using_list.py)）
+我们来看一个列表的栗子🌰（将下面示范代码保存为[ds_using_list.py](../Code/08/ds_using_list.py)）
 ```python
 # This is my shopping list
 shoplist = ['apple', 'mango', 'carrot', 'banana']
@@ -80,7 +80,7 @@ My shopping list is now ['banana', 'carrot', 'mango', 'rice']
 元组是通过特别指定项目来定义的，在指定项目时，你可以给它们加上括号，并在括号内部用逗号进行分隔。
 
 元组通常用于保证某一语句或某一用户定义的函数可以安全地采用一组数值，意即元组内的数值不会改变。
-案例（保存为[ds_using_tuple.py](../Code/ds_using_tuple.py)）：
+案例（保存为[ds_using_tuple.py](../Code/08/ds_using_tuple.py)）：
 ```python
 # 我会推荐你总是使用括号
 # 来指明元组的开始与结束
@@ -127,7 +127,7 @@ Number of animals in the new zoo is 5
 
 另外需要记住，字典中的成对的键值—值配对不会以任何方式进行排序。如果你希望为它们安排一个特别的次序，只能在使用它们之前自行进行排序。
 
-案例（保存[ds_using_dict.py](../Code/ds_using_dict.py)）：
+案例（保存[ds_using_dict.py](../Code/08/ds_using_dict.py)）：
 ```python
 ab = {
     'Swaroop': 'swaroop@swaroopch.com',
@@ -182,7 +182,7 @@ Guido's address is guido@python.org
 上面所提到的序列的三种形态——列表、元组与字符串，同样拥有一种 **切片（Slicing）** 操作，它能够允许我们序列中的某段切片——也就是获取序列之中的一部分。
 > 这个翻译很神奇，但它的确就是这样的意思。
 
-废话不多说。看例子[ds_seq.py](../Code/ds_seq.py)
+废话不多说。看例子[ds_seq.py](../Code/08/ds_seq.py)
 ```python
 shoplist = ['apple', 'mango', 'carrot', 'banana']
 name = 'swaroop'
@@ -279,7 +279,7 @@ True
 当你创建了一个对象并将其分配给某个变量时，变量只会 **查阅（Refer）** 某个对象，并且它也不会代表对象本身。也就是说，变量名只是指向你计算机内存中存储了相应对象的那一部分。这叫作将名称 **绑定（Binding）** 给那一个对象。
 
 一般来说，你不需要去关心这个，不过由于这一引用操作困难会产生某些微妙的效果，这是需要你注意的：
-案例（保存为 ds_reference.py）：
+案例（保存为 [ds_reference.py](../Code/08/ds_reference.py)）：
 ```python
 print('Simple Assignment')
 shoplist = ['apple', 'mango', 'carrot', 'banana']

@@ -62,7 +62,7 @@ He said "Bond, James Bond."
 
 ### 格式化方法（规格化）
 有时候我们会想要从其他信息中构建字符串。这正是`format()`方法大有用武之地的地方。
-将以下内容保存为文件 [str_format.py](../Code/str_format.py) ：
+将以下内容保存为文件 [str_format.py](../Code/04/str_format.py) ：
 ```python
 age = 20
 name = 'Swaroop'

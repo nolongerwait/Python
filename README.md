@@ -18,6 +18,6 @@ Teaching Python for Menglu He
 [学习Python的第六天](Tutorial/Guide06.md) 学习流程控制语句——循环和条件语句  
 [学习Python的第七天](Tutorial/Guide07.md) 学习函数  
 [学习Python的第八天](Tutorial/Guide08.md) 学习进阶的数据结构类型，了解对象和引用。  
-[学习Python的第?天](Tutorial/Guide09.md) 咨询  
-[学习没有灵魂的Python的第一天](Tutorial/Guide10.md) 函数的进阶：函数参数   
-[学习没有灵魂的Python的第二天](Tutorial/Guide11.md) 函数的进阶：递归函数
+[学习Python的第九天](Tutorial/Guide09.md) 复习   
+[学习Python的第十天](Tutorial/Guide10.md) 函数的进阶：函数参数   
+[学习Python的第十一天](Tutorial/Guide11.md) 函数的进阶：递归函数
