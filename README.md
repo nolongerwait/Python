@@ -39,7 +39,8 @@ Let's briefly learn some basic concepts of Python and Programming.
 - 学习进阶的数据结构类型，了解对象和引用。  
 
 [学习Python的第九天](Tutorial/Guide09.md) 
-- 复习   
+- Advanced feature of Python
+- Python高阶功能   
 
 [学习Python的第十天](Tutorial/Guide10.md) 
 - Advanced feature of functions: Function Parameters
