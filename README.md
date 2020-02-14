@@ -49,3 +49,7 @@ Let's briefly learn some basic concepts of Python and Programming.
 [学习Python的第十一天](Tutorial/Guide11.md) 
 - Advanced feature of functions: Recursive Function
 - 函数的进阶：递归函数  
+
+[学习Python的第十二天](Tutorial/Guide12.md)
+- Input and Output in Python
+- Python中的输入和输出
