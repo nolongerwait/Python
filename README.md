@@ -53,3 +53,6 @@ Let's briefly learn some basic concepts of Python and Programming.
 [学习Python的第十二天](Tutorial/Guide12.md)
 - Input and Output in Python
 - Python中的输入和输出
+
+# 额外部分 Extra Part
+[学习Python编程的编程思路](Tutorial/Guide_HowToProgram.md)

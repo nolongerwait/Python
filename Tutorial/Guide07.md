@@ -79,7 +79,7 @@ print(add_two_num(x, y)) # x and y are the arguments of add_two_num()
 对于一些函数来说，你可能为希望使一些参数成为可选的，而且他们可以拥有默认的值。默认参数值可以有效帮助解决这一情况。你可以通过在函数定义时附加一个赋值运算符（=）来为参数指定默认参数值。
 
 要注意到，默认参数值应该是常量。更确切地说，默认参数值应该是不可变的——这将在后面的章节中予以更详细的解释。就目前来说，只要记住就行了。
-案例（保存为 function_default.py）：
+案例（保存为[function_default.py](../Code/07/function_default.py)）：
 ```python
 def say(message, times=1):
     print(message * times)
