@@ -1,5 +1,9 @@
-# Python
-Teaching Python for Menglu He
+# Python for Menglu He
+Teaching Python for Menglu He  
+给贺梦露写的Python教程。
+
+*Since this repository has been permanently stored in the GitHub Arctic Program, it is also permanently retained here*  
+*由于该仓库已被永久性存储在GitHub北极仓库中，故在此也永久性保留*
 
 ## 第一部分 Part 1
 
@@ -53,8 +57,6 @@ Let's briefly learn some basic concepts of Python and Programming.
 [学习Python的第十二天](Tutorial/Guide12.md)
 - Input and Output in Python
 - Python中的输入和输出
-
-[学习Python的第十三天]
 
 # 额外部分 Extra Part
 [学习Python编程的编程思路](Tutorial/Guide_HowToProgram.md)
